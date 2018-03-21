@@ -1,6 +1,6 @@
 ### 项目概要
 
-基于 Docker 搭建的 Express 应用
+基于 Express 搭建的 Docker 项目
 
 
 #### 应用技术栈
@@ -21,11 +21,11 @@ docker image ls
 
 # run docker 
 
-1、Direct in command
+1、direct by command
 
 docker container run -p 3001:3001 -it docker-demo /bin/bash 
 
-2、By CMD in Dockerfile
+2、by Dockerfile CMD
 
 docker container run --rm -p 3001:3001 -it docker-demo
 
